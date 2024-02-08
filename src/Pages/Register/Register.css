@@ -1,0 +1,18 @@
+.bg-image {
+    background: url('https://img.myloview.com/posters/background-with-red-theatre-curtain-700-176236573.jpg') center/cover fixed;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.8); /* Set the background color with transparency */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add other styling as needed */
