@@ -61,14 +61,14 @@ function Home() {
       </div>
       <div>
         <input
-          style={{ width: "90%" }}
+          style={{ width: "90%", fontSize:'16px' }}
           type="text"
           className="search-input"
-          placeholder="Search for movies"
+          placeholder="Search for movies..."
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
         />
-        <h1 className="text-md uppercase mb-3">Currently showing Movies</h1>
+        <h1 style={{marginTop:'20px'}}className="text-md uppercase mb-3">Currently showing Movies</h1>
         <Row gutter={[20]} className="mt-2">
           {movies
             .filter((movie) =>

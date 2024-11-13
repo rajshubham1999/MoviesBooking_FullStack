@@ -24,12 +24,7 @@ function Register() {
       message.error(err);
     }
   }
-  useEffect(() => {
-    if (localStorage.getItem("token")) {
-      navigate("/"); // Get User Info from server
-    }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  
   return (
     <div className="flex justify-center h-screen items-center bg-image">
       <div className="card p-3 w-400">
